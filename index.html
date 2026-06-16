@@ -238,9 +238,9 @@
       </div>
       <div class="kpi-card down">
         <div class="kpi-label">GSC CTR</div>
-        <div class="kpi-value">29.61%</div>
-        <div class="kpi-sub">전주: 30.16%</div>
-        <span class="kpi-wow down">▼ 1.84%</span>
+        <div class="kpi-value">29.81%</div>
+        <div class="kpi-sub">전주: 30.31%</div>
+        <span class="kpi-wow down">▼ 1.66%</span>
       </div>
       <div class="kpi-card up">
         <div class="kpi-label">거래건수</div>
@@ -358,34 +358,34 @@
             <div class="search-rank-row">
               <span class="medal">🥇</span>
               <span class="search-name">리니지클래식</span>
-              <span class="search-pct">28.56%</span>
+              <span class="search-pct">28.94%</span>
             </div>
             <div class="search-bar-bg">
               <div class="search-bar-fill" style="width:100.0%;background:linear-gradient(90deg,#FFD700,#FFA500)"></div>
             </div>
-            <div class="search-count">1,859,122건</div>
+            <div class="search-count">1,883,514건</div>
           </div>
           <div class="search-item">
             <div class="search-rank-row">
               <span class="medal">🥈</span>
               <span class="search-name">메이플스토리월드</span>
-              <span class="search-pct">18.50%</span>
+              <span class="search-pct">15.49%</span>
             </div>
             <div class="search-bar-bg">
-              <div class="search-bar-fill" style="width:64.8%;background:linear-gradient(90deg,#C0C0C0,#A0A0A0)"></div>
+              <div class="search-bar-fill" style="width:53.5%;background:linear-gradient(90deg,#C0C0C0,#A0A0A0)"></div>
             </div>
-            <div class="search-count">1,204,130건</div>
+            <div class="search-count">1,008,204건</div>
           </div>
           <div class="search-item">
             <div class="search-rank-row">
               <span class="medal">🥉</span>
               <span class="search-name">아이온2</span>
-              <span class="search-pct">14.90%</span>
+              <span class="search-pct">13.04%</span>
             </div>
             <div class="search-bar-bg">
-              <div class="search-bar-fill" style="width:52.2%;background:linear-gradient(90deg,#CD7F32,#B87333)"></div>
+              <div class="search-bar-fill" style="width:45.1%;background:linear-gradient(90deg,#CD7F32,#B87333)"></div>
             </div>
-            <div class="search-count">969,542건</div>
+            <div class="search-count">848,922건</div>
           </div>
         </div>
       </div>
@@ -581,7 +581,7 @@
     </div>
   </div>
 </div>
-<div class="footer">2026년 23주차 아이템매니아 마케팅 코어 인덱스 &nbsp;|&nbsp; 기간: 2026.06.01 ~ 2026.06.07 &nbsp;|&nbsp; 생성일: 2026.06.09 &nbsp;|&nbsp; 2026-23w-1(수정본) 기준 · Summary 3영역 &nbsp;|&nbsp; CONFIDENTIAL</div>
+<div class="footer">2026년 23주차 아이템매니아 마케팅 코어 인덱스 &nbsp;|&nbsp; 기간: 2026.06.01 ~ 2026.06.07 &nbsp;|&nbsp; 생성일: 2026.06.16 &nbsp;|&nbsp; 2026-23w-2 기준 · Summary 3영역 &nbsp;|&nbsp; CONFIDENTIAL</div>
 <script>
 Chart.defaults.font.family="'Pretendard',-apple-system,sans-serif";
 Chart.defaults.font.size=11;
@@ -600,14 +600,14 @@ new Chart(document.getElementById('trendChart'), {
 new Chart(document.getElementById('gscChart'), {
   type:'bar',
   data:{labels:["26년19주", "26년20주", "26년21주", "26년22주", "26년23주"],datasets:[
-    {label:'클릭수',data:[204817, 193970, 177984, 196876, 131325],backgroundColor:'rgba(0,86,179,.75)',borderRadius:4},
-    {label:'노출수',data:[598776, 591476, 623854, 649440, 443533],backgroundColor:'rgba(0,86,179,.2)',borderRadius:4}
+    {label:'클릭수',data:[204817, 193970, 177984, 196876, 187286],backgroundColor:'rgba(0,86,179,.75)',borderRadius:4},
+    {label:'노출수',data:[598776, 591476, 623854, 649440, 628250],backgroundColor:'rgba(0,86,179,.2)',borderRadius:4}
   ]},
   options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{position:'top',labels:{usePointStyle:true}}},scales:{x:{grid:{display:false}},y:{grid:{color:'rgba(0,0,0,.04)'}}}}
 });
 new Chart(document.getElementById('ctrChart'), {
   type:'line',
-  data:{labels:weeks,datasets:[{label:'GSC CTR(%)',data:[39.15, 39.39, 40.8, 40.71, 33.91, 36.21, 32.73, 34.21, 32.79, 28.53, 30.31, 29.61],borderColor:'#E74C3C',backgroundColor:'rgba(231,76,60,.08)',borderWidth:2.5,pointBackgroundColor:'#E74C3C',pointRadius:4,tension:.4,fill:true}]},
+  data:{labels:weeks,datasets:[{label:'GSC CTR(%)',data:[39.15, 39.39, 40.8, 40.71, 33.91, 36.21, 32.73, 34.21, 32.79, 28.53, 30.31, 29.81],borderColor:'#E74C3C',backgroundColor:'rgba(231,76,60,.08)',borderWidth:2.5,pointBackgroundColor:'#E74C3C',pointRadius:4,tension:.4,fill:true}]},
   options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:{grid:{color:'rgba(0,0,0,.04)'},ticks:{maxRotation:30}},y:{grid:{color:'rgba(0,0,0,.04)'},ticks:{callback:function(v){return v+'%';}}}}}
 });
 new Chart(document.getElementById('ageChart'), {
